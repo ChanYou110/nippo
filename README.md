@@ -9,8 +9,13 @@
 python --version
 ```
 pyenv（pythonのバージョン管理できるやつ）のインストール & 初期設定
+
+エラー出るかもですが、何回か実行してると入ります（エラーはようわからん）
 ```sh
 $ brew install pyenv
+```
+pyenv初期設定
+```sh
 $ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
 $ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
 $ echo 'eval "$(pyenv init -)"' >> ~/.zshrc
@@ -18,10 +23,10 @@ $ source ~/.zshrc
 ```
 pythonインストール & 適用
 ```sh
-$ pyenv install 3.10.4
-$ pyenv global 3.10.4
+$ pyenv install 3.10.7
+$ pyenv global 3.10.7
 ```
-下記コマンドで`Python 3.10.4`と出ればOK
+下記コマンドで`Python 3.10.7`と出ればOK
 ```sh
 python --version
 ```
