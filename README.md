@@ -3,6 +3,35 @@
 
 # 使い方
 
+
+## nippo.pyの実行
+
+リポジトリのクローン
+
+HTTP
+```sh
+$ git clone https://github.com/ChanYou110/nippo.git
+```
+SSH
+```sh
+$ git clone git@github.com:ChanYou110/nippo.git
+```
+クローンしたリポジトリに移動
+```sh
+$ cd nippo
+```
+Pythonプログラムの実行
+```sh
+$ python3 nippo.py
+```
+- 開始時刻と終了時刻は HH mm （例12:00→12 00）の形で入力
+
+- 時刻入力ミスったらそこまでの内容でPR作成されます
+
+## 追記（2023/06/02）
+Venturaはpython3が同梱されてたのでそれで実行できます
+
+一応pythonの仮想環境インストール方法残しておきます。
 ## Pythonインストール
 下記コマンドでpython入ってないよって言われた人はインストールしてください
 ```sh
@@ -29,25 +58,4 @@ $ pyenv global 3.10.7
 下記コマンドで`Python 3.10.7`と出ればOK
 ```sh
 python --version
-```
-
-## nippo.pyの実行
-
-リポジトリのクローン
-
-HTTP
-```sh
-$ git clone https://github.com/ChanYou110/nippo.git
-```
-SSH
-```sh
-$ git clone git@github.com:ChanYou110/nippo.git
-```
-クローンしたリポジトリに移動
-```sh
-$ cd nippo
-```
-Pythonプログラムの実行
-```sh
-$ python nippo.py
 ```
